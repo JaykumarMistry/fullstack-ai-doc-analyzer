@@ -12,7 +12,7 @@ A production-ready "Vertical Slice" of an Agentic RAG (Retrieval-Augmented Gener
 ## 🛠️ Technology Stack
 * **Frontend**: Next.js (React), Tailwind CSS, Lucide Icons.
 * **Backend**: FastAPI (Python), Pydantic (Data Contracts).
-* **AI & Data**: LangChain (Agent framework), FAISS (Vector DB), OpenAI (`gpt-3.5-turbo`), PyPDF2 & Pandas (Parsing).
+* **AI & Data**: LangChain (Agent framework), FAISS (Vector DB), OpenAI, PyPDF2 & Pandas (Parsing).
 
 ---
 
@@ -34,7 +34,7 @@ The backend is responsible for API routing, file processing, and housing the LLM
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up your environment variables by renaming `.env.example` to `.env` and adding your API key:
+3. Set up your environment variables by creating `.env` and adding your API key:
    ```env
    OPENAI_API_KEY=your_real_openai_api_key_here
    ```
