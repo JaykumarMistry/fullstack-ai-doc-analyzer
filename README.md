@@ -63,7 +63,7 @@ The frontend provides the user interface for uploading documents and chatting wi
 
 ---
 
-## 💡 How to Use
+## 💡 How to Use 
 1. Open `http://localhost:3000` in your web browser.
 2. Drag and drop a PDF or CSV file into the designated upload zone.
 3. Click **Submit Document**. You will see a success message when the file is processed and indexed.
